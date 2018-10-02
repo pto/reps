@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="14313.18" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
-    <device id="watch38" orientation="portrait">
+    <device id="watch44" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -13,15 +13,17 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Reps_WatchKit_App" customModuleProvider="target">
                     <items>
-                        <dateLabel width="136" height="48" alignment="center" textAlignment="center" id="3DC-pL-T4n">
-                            <color key="textColor" red="0.45009386540000001" green="0.98132258650000004" blue="0.4743030667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <dateLabel width="1" alignment="center" textAlignment="center" numberOfLines="3" format="EEE MMM d h:mm:ss" id="3DC-pL-T4n">
+                            <color key="textColor" red="0.55634254220000001" green="0.97934550050000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <fontDescription key="font" style="UICTFontTextStyleTitle0"/>
-                            <dateFormatterStyle key="dateStyle" short="YES"/>
+                            <date key="previewedDate" timeIntervalSinceReferenceDate="422730540">
+                                <!--2014-05-25 17:09:00 +0000-->
+                            </date>
                         </dateLabel>
-                        <label width="136" height="91" alignment="center" textAlignment="center" numberOfLines="2" id="f6C-ns-OMv">
+                        <label width="1" alignment="center" textAlignment="center" numberOfLines="2" id="f6C-ns-OMv">
                             <string key="text">Line 1
 Line 2</string>
-                            <fontDescription key="font" style="UICTFontTextStyleTitle0"/>
+                            <fontDescription key="font" style="UICTFontTextStyleTitle2"/>
                         </label>
                     </items>
                     <connections>
@@ -29,7 +31,7 @@ Line 2</string>
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="34" y="31"/>
+            <point key="canvasLocation" x="34" y="46"/>
         </scene>
     </scenes>
 </document>
