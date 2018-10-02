@@ -13,11 +13,11 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Reps_WatchKit_App" customModuleProvider="target">
                     <items>
-                        <dateLabel width="1" alignment="center" textAlignment="center" numberOfLines="3" format="EEE MMM d h:mm:ss" id="3DC-pL-T4n">
+                        <dateLabel width="1" alignment="center" textAlignment="center" numberOfLines="4" format="EEE MMM d h:mm:ss" id="3DC-pL-T4n">
                             <color key="textColor" red="0.55634254220000001" green="0.97934550050000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <fontDescription key="font" style="UICTFontTextStyleTitle0"/>
-                            <date key="previewedDate" timeIntervalSinceReferenceDate="422730540">
-                                <!--2014-05-25 17:09:00 +0000-->
+                            <date key="previewedDate" timeIntervalSinceReferenceDate="422726940">
+                                <!--2014-05-25 16:09:00 +0000-->
                             </date>
                         </dateLabel>
                         <label width="1" alignment="center" textAlignment="center" numberOfLines="2" id="f6C-ns-OMv">
