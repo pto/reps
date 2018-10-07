@@ -49,6 +49,11 @@ class ComplicationController: NSObject, CLKComplicationDataSource {
 //        handler(nil)
 //    }
     
+    // Update every 6 hours
+    func getNextRequestedUpdateDate(handler: @escaping (Date?) -> Void) {
+        handler(Date().addingTimeInterval(TimeInterval(6*60*60)))
+    }
+    
     // MARK: - Placeholder Templates
     
     func getLocalizableSampleTemplate(for complication: CLKComplication, withHandler handler: @escaping (CLKComplicationTemplate?) -> Void) {
