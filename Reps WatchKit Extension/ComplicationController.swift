@@ -8,6 +8,8 @@
 
 import WatchKit
 
+var myComplication: CLKComplication?
+
 class ComplicationController: NSObject, CLKComplicationDataSource {
     
     // MARK: - Timeline Configuration
@@ -32,6 +34,7 @@ class ComplicationController: NSObject, CLKComplicationDataSource {
     
     func getCurrentTimelineEntry(for complication: CLKComplication, withHandler handler: @escaping (CLKComplicationTimelineEntry?) -> Void) {
         // Call the handler with the current timeline entry
+        myComplication = complication
         let template = getComplicationTemplate(for: complication)
         if let t = template {
             let entry = CLKComplicationTimelineEntry(date: Date(), complicationTemplate: t)
