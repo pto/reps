@@ -20,6 +20,8 @@
 		55AF5D492160F62400249D12 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AF5D482160F62400249D12 /* InterfaceController.swift */; };
 		55AF5D4B2160F62400249D12 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AF5D4A2160F62400249D12 /* ExtensionDelegate.swift */; };
 		55AF5D4D2160F62400249D12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55AF5D4C2160F62400249D12 /* Assets.xcassets */; };
+		55FB2ABB21720D5A00F11916 /* startDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FB2ABA21720D5A00F11916 /* startDate.swift */; };
+		55FB2ABC21720D5A00F11916 /* startDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FB2ABA21720D5A00F11916 /* startDate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +84,7 @@
 		55AF5D4A2160F62400249D12 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		55AF5D4C2160F62400249D12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55AF5D4E2160F62400249D12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55FB2ABA21720D5A00F11916 /* startDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = startDate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,7 @@
 		55AF5D192160F62100249D12 = {
 			isa = PBXGroup;
 			children = (
+				55FB2ABA21720D5A00F11916 /* startDate.swift */,
 				55AF5D242160F62100249D12 /* Reps */,
 				55AF5D382160F62300249D12 /* Reps WatchKit App */,
 				55AF5D472160F62400249D12 /* Reps WatchKit Extension */,
@@ -290,6 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55AF5D282160F62100249D12 /* ViewController.swift in Sources */,
+				55FB2ABB21720D5A00F11916 /* startDate.swift in Sources */,
 				55AF5D262160F62100249D12 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,6 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55AF5D4B2160F62400249D12 /* ExtensionDelegate.swift in Sources */,
+				55FB2ABC21720D5A00F11916 /* startDate.swift in Sources */,
 				55AF5D492160F62400249D12 /* InterfaceController.swift in Sources */,
 				559BF0132162E76D00E7D0F9 /* ComplicationController.swift in Sources */,
 			);

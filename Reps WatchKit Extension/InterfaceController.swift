@@ -23,14 +23,10 @@ class InterfaceController: WKInterfaceController {
         // This method is called when watch view controller is about to be visible to user
         super.willActivate()
         
-        if let myComplication = myComplication {
-            CLKComplicationServer.sharedInstance().reloadTimeline(for: myComplication)
-        }
-        
-        let df = DateFormatter()
+       let df = DateFormatter()
         df.dateStyle = .short
         df.timeZone = .none
-        guard let epic = df.date(from: "10/1/2018") else {
+        guard let epic = df.date(from: startDate) else {
             plan.setText("Bad Date")
             return
         }
@@ -40,7 +36,7 @@ class InterfaceController: WKInterfaceController {
             plan.setText("Wait")
             return
         }
-        let day = Int(seconds / 60 / 60 / 24) + 1
+        let day = Int(seconds / 60 / 60 / 24) + 1 - daysOff
         if day % 2 == 1 {
             var reps = (day + 1) * 2
             reps = (reps < 128) ? reps : 128
@@ -56,5 +52,4 @@ class InterfaceController: WKInterfaceController {
         // This method is called when watch view controller is no longer visible
         super.didDeactivate()
     }
-
 }

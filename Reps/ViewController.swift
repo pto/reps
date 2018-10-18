@@ -23,7 +23,7 @@ class ViewController: UIViewController {
         let df = DateFormatter()
         df.dateStyle = .short
         df.timeZone = .none
-        guard let epic = df.date(from: "10/1/2018") else {
+        guard let epic = df.date(from: startDate) else {
             date.text = "Bad date"
             return
         }
@@ -34,7 +34,7 @@ class ViewController: UIViewController {
             plan.text = "Wait"
             return
         }
-        let dayNum = Int(seconds / 60 / 60 / 24) + 1
+        let dayNum = Int(seconds / 60 / 60 / 24) + 1 - daysOff
         day.text = String(dayNum)
         if dayNum % 2 == 1 {
             var reps = (dayNum + 1) * 2
