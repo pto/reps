@@ -1,10 +1,10 @@
 //
-//  File.swift
+//  startDate.swift
 //  Reps
 //
 //  Created by Peter Olsen on 10/13/18.
 //  Copyright © 2018 Peter Olsen. All rights reserved.
 //
 
-let startDate = "10/1/2018"
+let startDate = "3/1/2019"
 let daysOff = 1
