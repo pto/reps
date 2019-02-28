@@ -23,7 +23,7 @@
                         <label width="1" alignment="center" textAlignment="center" numberOfLines="2" id="f6C-ns-OMv">
                             <string key="text">Line 1
 Line 2</string>
-                            <fontDescription key="font" style="UICTFontTextStyleTitle3"/>
+                            <fontDescription key="font" style="UICTFontTextStyleTitle2"/>
                         </label>
                     </items>
                     <connections>
