@@ -6,5 +6,5 @@
 //  Copyright © 2018 Peter Olsen. All rights reserved.
 //
 
-let startDate = "3/1/2019"
+let startDate = "3/10/2019"
 let daysOff = 0
