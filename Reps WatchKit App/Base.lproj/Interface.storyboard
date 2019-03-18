@@ -16,8 +16,8 @@
                         <dateLabel width="1" alignment="center" textAlignment="center" numberOfLines="4" format="EEE MMM d h:mm:ss" id="3DC-pL-T4n">
                             <color key="textColor" red="0.46202266219999999" green="0.83828371759999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <fontDescription key="font" style="UICTFontTextStyleTitle1"/>
-                            <date key="previewedDate" timeIntervalSinceReferenceDate="574186140">
-                                <!--2019-03-13 16:09:00 +0000-->
+                            <date key="previewedDate" timeIntervalSinceReferenceDate="574618140">
+                                <!--2019-03-18 16:09:00 +0000-->
                             </date>
                         </dateLabel>
                         <label width="1" alignment="center" textAlignment="center" numberOfLines="2" id="f6C-ns-OMv">
@@ -31,7 +31,7 @@ Line 2</string>
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="34" y="46"/>
+            <point key="canvasLocation" x="34" y="46.674107142857146"/>
         </scene>
     </scenes>
 </document>
