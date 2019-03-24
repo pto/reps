@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="14460.31" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
-    <device id="watch44" orientation="portrait">
+    <device id="watch40" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -13,18 +13,22 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Reps_WatchKit_App" customModuleProvider="target">
                     <items>
-                        <dateLabel width="1" alignment="center" textAlignment="center" numberOfLines="4" format="EEE MMM d h:mm:ss" id="3DC-pL-T4n">
-                            <color key="textColor" red="0.46202266219999999" green="0.83828371759999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            <fontDescription key="font" style="UICTFontTextStyleTitle1"/>
-                            <date key="previewedDate" timeIntervalSinceReferenceDate="574618140">
-                                <!--2019-03-18 16:09:00 +0000-->
-                            </date>
-                        </dateLabel>
-                        <label width="1" alignment="center" textAlignment="center" numberOfLines="2" id="f6C-ns-OMv">
-                            <string key="text">Line 1
+                        <group width="1" alignment="center" verticalAlignment="center" layout="vertical" id="tTs-RB-zdh">
+                            <items>
+                                <dateLabel width="1" alignment="center" textAlignment="center" numberOfLines="4" format="EEE MMM d h:mm:ss" id="3DC-pL-T4n">
+                                    <color key="textColor" red="0.46202266219999999" green="0.83828371759999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <fontDescription key="font" style="UICTFontTextStyleTitle1"/>
+                                    <date key="previewedDate" timeIntervalSinceReferenceDate="574773240">
+                                        <!--2019-03-20 11:14:00 +0000-->
+                                    </date>
+                                </dateLabel>
+                                <label width="1" alignment="center" textAlignment="center" numberOfLines="2" id="f6C-ns-OMv">
+                                    <string key="text">Line 1
 Line 2</string>
-                            <fontDescription key="font" style="UICTFontTextStyleTitle2"/>
-                        </label>
+                                    <fontDescription key="font" style="UICTFontTextStyleTitle2"/>
+                                </label>
+                            </items>
+                        </group>
                     </items>
                     <connections>
                         <outlet property="plan" destination="f6C-ns-OMv" id="WG9-bz-67j"/>
